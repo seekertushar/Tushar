@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(240, 234, 211);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 12, 12);
+    font-size: 250%;
+    padding: 15px;
+    margin: 15px;
+}
+img{
+    border-radius: 100%;
+    /* border: 2px solid red;
+    box-shadow: 1px 1px 10px 10px; */
+    padding-top: 55px;
+}
+.dev{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(96, 88, 88);
+    
+}
+#footer{
+    color: rgb(80, 87, 87);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}

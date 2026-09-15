@@ -1,0 +1,53 @@
+/* 1. Universal Selector (*) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Element Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333333;
+    padding: 20px;
+}
+
+/* 3. Grouping Selector (h1, h2) */
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+/* 4. ID Selector (#profile-header) */
+#profile-header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+/* 5. Class Selector (.section-card) */
+.section-card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+}
+
+/* 6. Descendant Selector (.section-card ul) */
+.section-card ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Utility Class for Specific Font Controls */
+.highlight-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}

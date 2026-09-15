@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat & Dog Layout Exercise</title>
+    <style>
+        /* Remove all default margins and padding as requested */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* Horizontal flex layout */
+        .layout-container { display: flex; width: 100%; }
+
+        /* First div is smaller */
+        .cat-div { width: 30%; background-color: lightcyan; color: black; border: 1px solid gray; }
+
+        /* Second div is larger, fills remaining space */
+        .dog-div { flex-grow: 1; background-color: mistyrose; color: black; border: 1px solid gray; }
+
+        /* Float images left so text wraps, but still zero padding within the div */
+        img { float: left; width: 120px; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="layout-container">
+        <div class="cat-div">
+            <h3>Cat</h3>
+            <img src="cat.jpg" alt="A cat looking up">
+            <p>Nap all day cat dog hate mouse eat string barf pillow no balla hair everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog smells bad gnaw.</p>
+        </div>
+        <div class="dog-div">
+            <h3>Dog</h3>
+            <img src="dog.jpg" alt="A basket of puppies">
+            <p>Heckin good boys and girls bork bork woofer big ol wow very biscit long woofer heck what a nice floof, long doggo noodle horse vvv very taste wow. Very taste wow many pats aqua doggo he made many woofs pupperoo, doggo doing me a frighten.</p>
+        </div>
+    </div>
+</body>
+</html>

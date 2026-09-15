@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{font-family: sans-serif; background:#111; color:white; display:flex; gap:20px; flex-wrap:wrap; padding:30px;}
+  .box{
+    width:200px; height:150px;
+    background:#1e1e2f;
+    border:2px solid #8b5cf6;
+    border-radius:12px;
+    padding:10px;
+  }
+  h3{margin:0 0 10px 0; color:#22d3ee;}
+  .content{width:300px; height:100px; background:rgba(139,92,246,0.3);}
+</style>
+</head>
+<body>
+<div class="box" style="overflow: visible;">
+  <h3>1. overflow: visible</h3>
+  <div class="content">Ye content bahar nikal jayega, default yahi hota hai. Koi scroll nahi aayega.</div>
+</div>
+<div class="box" style="overflow: hidden;">
+  <h3>2. overflow: hidden</h3>
+  <div class="content">Ye content jo box ke bahar hai, kat jayega. Dikhega hi nahi, scroll bhi nahi.</div>
+</div>
+<div class="box" style="overflow: scroll;">
+  <h3>3. overflow: scroll</h3>
+  <div class="content">Isme hamesha scrollbar dikhega, chahe content chhota ho ya bada. Force scroll.</div>
+</div>
+<div class="box" style="overflow: auto;">
+  <h3>4. overflow: auto</h3>
+  <div class="content">Best value! Jarurat padne par hi scrollbar aayega. Content bada hua to scroll, chhota to nahi.</div>
+</div>
+
+</body>
+</html>
